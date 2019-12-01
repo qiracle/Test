@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:qiracle="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <cn.qiracle.customattr.MyToggleButton
+        android:id="@+id/my_toggle_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        qiracle:my_background="@drawable/switch_background"
+        qiracle:my_slide_btn="@drawable/slide_button"
+        qiracle:curr_state="false"
+        testAttrs="hello"
+        />
+
+</RelativeLayout>
